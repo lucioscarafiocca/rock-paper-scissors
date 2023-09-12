@@ -5,28 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game!</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <div class = buttons >
-        <button class="rock">
-            <p>Rock</p>
-        </button>
-        <button class="paper">
-            <p>Paper</p>
-        </button>
-        <button class="scissors">
-            <p>Scissors</p>
-        </button>
-    </div>
-    <p class="result"></p>
-    <div>
-        <h1 class="win"></h1>
-        <h1 class="tie"></h1>
-        <h1 class="lose"></h1>
-    </div>
-    <div>
+    <div class="container-four">
         <p class="final-result"></p>
+        <p class="result"></p>
     </div>
+
+    <div class="container-two">
+   
+        <button id="one" class="rock">
+            <p></p>
+        </button>
+         <button id="two" class="scissors">
+            <p></p>
+        </button>
+        <button id="three" class="paper">
+            <p></p>
+        </button>
+       
+   
+    </div>
+    
+    
+   <div class="text">
+    <p class="blue">Wins!</p>
+    <p class="green">Ties!</p>
+    <p class="red">Loses!</p>
+    </div>
+    <div class =container-three>
+        <h1 id="blue" class="win"></h1>
+        <h1 id="green" class="tie"></h1>
+        <h1 id="red" class="lose"></h1>
+    </div>
+    <div class="container">
+        <p class="result"></p>
+        </div>
+    
+
+        
 </body>
 </html>
